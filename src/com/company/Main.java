@@ -19,15 +19,8 @@ public class Main {
 
         // Задача 2
 
-        for (int friday = 1; friday <= 31; friday = friday + 7) {  // сделал несколько условий которые будут менять окончание после даты. Тем самым повторил тему условных операторов
-            if (friday == 1 || friday == 21 || friday == 31) {
-                System.out.println("Today is Friday " + friday + "st. It's time to make a report.");
-            } else if (friday == 2 || friday == 22) {
-                System.out.println("Today is Friday " + friday + "nd. It's time to make a report.");
-            } else if (friday == 3 || friday == 23) {
-                System.out.println("Today is Friday " + friday + "rd. It's time to make a report.");
-            } else
-                System.out.println("Today is Friday " + friday + "th. It's time to make a report.");
+        for (int friday = 2; friday <= 31; friday = friday + 7) {
+            System.out.println("Today is Friday " + friday + ". It's time to make a report.");
         }
 
         // Задача 3
